@@ -1,56 +1,56 @@
 # project-Chat-Message-History-Manager
 🔹 Overview
 
-This C++ program is a Chat Message History Manager.
+* This C++ program is a Chat Message History Manager.
 It simulates a mini chat system where you can:
 
-Send messages.
+* Send messages.
 
-Receive messages (copies last sent message into inbox).
+* Receive messages (copies last sent message into inbox).
 
-View inbox or sent history.
+* View inbox or sent history.
 
-Undo and redo sent messages.
+* Undo and redo sent messages.
 
 It uses queues for the inbox (FIFO order) and stacks for sent/undone messages (LIFO order).
 Timestamps are automatically added to every message using <chrono> and <ctime>.
-
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🔹 Features
 
-Send Message
+* Send Message
 
-Stores the message in sentMessages stack.
+* Stores the message in sentMessages stack.
 
-Shows timestamp when sent.
+* Shows timestamp when sent.
 
-Receive Message
+* Receive Message
 
-Simulates receiving the last sent message by moving it to inbox.
+* Simulates receiving the last sent message by moving it to inbox.
 
-Show Inbox
+* Show Inbox
 
-Displays all received messages in order (FIFO).
+* Displays all received messages in order (FIFO).
 
-Show Sent Messages
+* Show Sent Messages
 
-Displays all sent messages in reverse order (latest first).
+* Displays all sent messages in reverse order (latest first).
 
-Undo Last Sent Message
+* Undo Last Sent Message
 
-Removes the last sent message and moves it to an undo stack.
+* Removes the last sent message and moves it to an undo stack.
 
-Redo Last Undone Message
+* Redo Last Undone Message
 
-Restores the last undone message back into the sent list.
+* Restores the last undone message back into the sent list.
 
-Timestamps
+* Timestamps
 
-Every message is saved with the exact date & time it was created.
+* Every message is saved with the exact date & time it was created.
 
-Menu System
+* Menu System
 
-Simple text-based menu with emojis for clarity.
-
+* Simple text-based menu with emojis for clarity.
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 🔹 How to Run
 
 * Save the code as chat_manager.cpp.
