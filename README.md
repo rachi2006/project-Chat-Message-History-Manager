@@ -53,14 +53,15 @@ Simple text-based menu with emojis for clarity.
 
 🔹 How to Run
 
-Save the code as chat_manager.cpp.
+* Save the code as chat_manager.cpp.
 
-Open a terminal/command prompt.
+* Open a terminal/command prompt.
 
-Compile the program:
+* Compile the program:
 
-g++ chat_manager.cpp -o chat_manager
-
+* g++ chat_manager.cpp -o chat_manager
+               or
+  * you can also run in online compiler.
 
 Run the program:
 
@@ -71,13 +72,13 @@ Run the program:
 User Interaction (Sample Run):
 
 ======== 💬 Chat Message History Manager ========
-1️⃣  Send Message
-2️⃣  Receive Message
-3️⃣  Show Inbox
-4️⃣  Show Sent Messages
-5️⃣  Undo Last Sent
-6️⃣  Redo Last Undone
-7️⃣  Exit
+1️⃣  Send Message.
+2️⃣  Receive Message.
+3️⃣  Show Inbox.
+4️⃣  Show Sent Messages.
+5️⃣  Undo Last Sent.
+6️⃣  Redo Last Undone.
+7️⃣  Exit.
 👉 Enter choice: 1
 ✍️ Enter message to send: Hello World!
 📤 Message sent: "Hello World!" at Sat Sep 13 17:20:45 2025
